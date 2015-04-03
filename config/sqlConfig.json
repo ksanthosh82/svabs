@@ -1,0 +1,23 @@
+{
+    "sqlConfig" : {
+        "userName": "CCAPSCORE",
+        "password": "password-03",
+        "server": "ccapmetlife",
+        "requestTimeout": 30000,
+        "options": {
+            "debug": {
+                "packet": true,
+                "data": true,
+                "payload": true,
+                "token": false,
+                "log": true
+            },
+            "database": "CCAPMetlife"
+        }
+    },
+    "serviceConfig" : {
+        "server": "ccapmetlife",
+        "path" : "/DARTMetricsServices/api/DARTMetricsCCAP/GetPortfolioScore",
+        "contentType" : "application/json; charset=utf-8"
+    }
+}
